@@ -13,10 +13,21 @@ html {
     font-size: 18px;
     background-color: black;
     line-height: 2;
+    overflow-y: scroll;
+}
+
+body {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 /* HEADER */
 header {
+    height: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: black;
     display: flex;
     justify-content: flex-end;
@@ -30,6 +41,13 @@ button {
     border: none;
     border-radius: .2rem;
     margin-right: .2rem;
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    height: 100vh;
+    padding: 2.5rem 5rem 1.5rem;
 }
 
 
