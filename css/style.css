@@ -1,5 +1,5 @@
 :root {
-    --grey: #4A4A4A;
+    --grey: #4a4a4a;
     --light-black: #222222;
 }
 
@@ -13,12 +13,11 @@ html {
     font-size: 18px;
     background-color: black;
     line-height: 2;
-    overflow-y: scroll;
 }
 
 body {
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 4.5rem;
 }
 
 /* HEADER */
@@ -45,9 +44,47 @@ button {
 
 /* MAIN */
 main {
-    background-color: white;
-    height: 100vh;
-    padding: 2.5rem 5rem 1.5rem;
+    background-color: black;
+    height: calc(100vh - 4rem - 5rem);
+    padding: 0 5rem;
+    margin: 4rem 0 5rem;
+    color: white;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+
+.user-video {
+    display: inline-block;
+    background-image: url("https://picsum.photos/seed/picsum/300/200");
+    background-size: cover;
+    width: calc((100% - 2rem)/ 7);
+    height: calc((100% - 4rem)/ 5);
+    position: relative;
+    margin-bottom: .8rem;
+
+}
+
+.user-video span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba( 0, 0, 0, .2);
+    padding: .3rem;
+    line-height: 1;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    height: 4.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--light-black);
+    color: white;
 }
 
 
