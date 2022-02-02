@@ -1,6 +1,37 @@
+:root {
+    --grey: #4A4A4A;
+    --light-black: #222222;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
+
+html {
+    font-size: 18px;
+    background-color: black;
+    line-height: 2;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: .1rem;
+}
+
+button {
+    padding: .3rem;
+    background-color: var(--grey);
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    margin-right: .2rem;
+}
+
+
+
 
