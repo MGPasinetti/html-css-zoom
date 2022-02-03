@@ -12,6 +12,7 @@
 html {
     font-size: 14px;
     background-color: black;
+    color: white;
     line-height: 2;
     font-family: 'Open Sans', sans-serif;
 }
@@ -51,7 +52,6 @@ main {
     height: calc(100vh - 4rem - 6.5rem);
     padding: 0 5rem;
     margin: 4rem 0 5rem;
-    color: white;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
@@ -60,7 +60,7 @@ main {
 
 .user-video {
     display: inline-block;
-    background-image: url("https://picsum.photos/seed/picsum/300/200");
+    background-image: url("https://picsum.photos/300/200");
     background-size: cover;
     min-width: 248px;
     min-height: 152.8px;
@@ -89,7 +89,6 @@ footer {
     left: 0;
     right: 0;
     background-color: var(--light-black);
-    color: white;
 }
 
 .col {
